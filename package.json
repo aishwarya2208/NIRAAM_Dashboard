@@ -1,7 +1,7 @@
 {
   "name": "project_syncfusion_dashboard",
   "version": "0.1.0",
-  "homepage": "https://aishwarya2208.github.io",
+  "homepage": "https://aishwarya2208.github.io/NIRAAM_Dashboard",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
