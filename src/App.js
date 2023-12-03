@@ -27,7 +27,7 @@ import Sidebar from './component/Sidebar';
 
 const App = () => {
   const { activeMenu } = useStateContext();
-  const [authenticated, setAuthenticated] = useState(false);
+  const [authenticated, setAuthenticated] = useState(true);
 
   return (
     <div>
@@ -98,7 +98,7 @@ const App = () => {
               <Route
                 path="/"
                 element={
-                  authenticated ? <Navigate to="/dashboard" /> : <Navigate to="/login" />
+                  true ? <Navigate to="/dashboard" /> : <Navigate to="/login" />
                 }
               />
             </Routes>
